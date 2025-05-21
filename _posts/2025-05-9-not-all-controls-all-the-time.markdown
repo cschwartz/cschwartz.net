@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Not All Controls, for All Assets, All the Time: Smarter Scoping Starts with Asset Properties"
-categories: infosec controls risk-managment
+tags: infosec controls risks risk-managment
 date: 2025-05-09 09:00:00 +0200
 ---
 One of the most practical ways to reduce InfoSec "process friction" is right-sizing requirements.

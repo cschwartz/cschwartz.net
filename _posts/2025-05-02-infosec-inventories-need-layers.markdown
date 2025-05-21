@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Why InfoSec Inventories Need Layers — and How to Link Them"
-categories: infosec asset-inventories
+tags: infosec asset-inventories
 date: 2025-05-02 09:00:00 +0200
 ---
 Conflating what we protect with what we run on creates blind spots. Distinguish the two to build lean, actionable inventories.

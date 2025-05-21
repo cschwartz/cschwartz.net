@@ -2,7 +2,7 @@
 layout: single
 title:  "Not every incident causes damage. But that doesn’t mean it’s not worth talking about."
 date:   2025-04-24 09:00:00 +0200
-categories: infosec security-incident near-miss
+tags: infosec security-incidents near-misses
 ---
 We’ve gotten (reasonably) good at tracking Security Incidents - the ones that “count,” that cause damage, that trigger IR playbooks and postmortems.
 <!--more-->

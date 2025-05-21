@@ -2,6 +2,7 @@
 layout: single
 title: Threat Ontologies Over Threat Lists – Less 'Listicle', More Logic
 date: 2025-05-15 08:18 +0200
+tags: threats risks infosec
 ---
 In risk management, we rightly focus on impact. But we often gloss over threats - or treat them as vague narratives.
 <!--more-->

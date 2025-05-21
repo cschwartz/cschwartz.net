@@ -2,7 +2,7 @@
 layout: single
 title:  "Security incident frequency stats are (mostly) useless."
 date:   2025-04-17 09:00:00 +0200
-categories: infosec security-incident statistics
+tags: infosec security-incidents statistics
 ---
 Security incident frequency stats are (mostly) useless. Unless we agree on - or know - what a security incident actually is.
 <!--more-->
