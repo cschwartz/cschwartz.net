@@ -1,0 +1,65 @@
+- title: How to Embrace Regulations to Achieve Better and More Efficient Security Outcomes
+  event: ISF World Congress 2024
+  date: 2024-11-11
+  location: Orlando (USA)
+  language: en
+  slides: assets/slides/2024_ISF-World-Congress_Embrace-Regulations.pdf
+  speaker:
+    - Dr. Christian Schwartz
+- title: "DORA: How the Next Wave of Requirements Is Hitting the Payment Card Industry"
+  event: PCI SSC 2024 Europe Community Meeting
+  date: 2024-10-09
+  location: Barcelona (Spain)
+  language: en
+  slides: assets/slides/2024_PCI-SSC_Europe-Community-Meeting-DORA-New-Requirements.pdf
+  speaker:
+    - Christopher Kristes
+    - Dr. Christian Schwartz
+- title: "DORA - Towards More Operational Resilience in Information Security"
+  event: Heise IT-Sicherheitstag Mainz
+  date: 2024-06-26
+  location: Mainz (Germany)
+  language: de
+  slides: assets/slides/2024_Heise-IT-Sicherheitstag_DORA-Towards-More-Resilience.pdf
+  speaker:
+    - Patrick Schmidt
+    - Dr. Christian Schwartz
+- title: "DORA in the Year Before its Entry Into Force: Contents, Challenges, Strategies"
+  event: IT-GRC Congress 2024
+  date: 2024-06-04
+  location: Hamburg (Germany)
+  language: de
+  slides: assets/slides/2024_IT-GRC-Congress_DORA-before-Entry-Into-Force.pdf
+  speaker:
+    - Dr. Frank Innerhofer
+    - Dr. Christian Schwartz
+- title:  "Concretization of the DORA through technical implementation and implementation standards: An outlook"
+  event: IT-GRC Congress 2023
+  date: 2023-11-08
+  location: Munich (Germany)
+  language: de
+  slides: assets/slides/2023_IT-GRC-Congress_DORA-Concretization.pdf
+  speaker:
+    - Patrick Schmidt
+    - Dr. Christian Schwartz
+- title: Digital Operational Resilience Act (DORA) – Innovations, challenges and implementation options
+  event: IT-GRC Congress 2022
+  date: 2022-09-28
+  location: Mainz (Germany)
+  language: de
+  slides: assets/slides/2022_IT-GRC-Congress_DORA.pdf
+  speaker:
+    - Dr. Frank Innerhofer
+    - Dr. Christian Schwartz
+    - Christian Siepmann
+- title: "Process map BAIT"
+  event: IT-GRC Congress 2022
+  date: 2022-09-28
+  location: Mainz (Germany)
+  language: de
+  slides: assets/slides/2022_IT-GRC-Congress_Process-map-BAIT.pdf
+  speaker:
+    - Dr. Jörg Lobbes
+    - Steffen Mack
+    - Dr. Christian Schwartz
+    - Christian Siepmann

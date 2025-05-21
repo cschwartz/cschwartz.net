@@ -1,0 +1,38 @@
+---
+layout: single
+title: "Talks"
+author_profile: true
+classes:
+- talks
+- wide
+---
+{% assign talks = site.data.talks %}
+{% assign sorted_talks = talks | sort: 'date' %}
+{% assign sorted_talks = sorted_talks | reverse %}
+{% assign talks_by_year = sorted_talks | group_by_exp: "talk", "talk.date | date: '%Y'" %}
+{% for group in talks_by_year %}
+<h2>{{ group.name }}</h2>
+{% for talk in group.items %}
+<div class="talk">
+    <h3 class="title">{{ talk.title }}</h3>
+    <ul>
+        <li><strong>Speakers:</strong> {{ talk.speaker | humanize_join }}</li>
+        <li><strong>Date:</strong> {{ talk.date | date: "%B %d, %Y" }}</li>
+        <li><strong>Location:</strong> {{ talk.location }}</li>
+        <li><strong>Event:</strong> {{ talk.event }}</li>
+        <li><strong>Language:</strong>
+            {% if talk.language == "de" %}
+            <span class="language" role="img" aria-label="German">🇩🇪 German</span>
+            {% elsif talk.language == "en" %}
+            <span class="language" role="img" aria-label="English">🇬🇧 English</span>
+            {% else %}
+            <span class="language">{{ talk.language }}</span>
+            {% endif %}
+        </li>
+        {% if talk.slides %}
+        <li><strong>Slides:</strong> <a href="/{{ talk.slides }}" target="_blank" rel="noopener">View slides</a></li>
+        {% endif %}
+    </ul>
+</div>
+{% endfor %}
+{% endfor %}

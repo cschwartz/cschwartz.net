@@ -1,0 +1,9 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+.direnv
+.devenv
+.ruby-lsp
+.DS_Store
