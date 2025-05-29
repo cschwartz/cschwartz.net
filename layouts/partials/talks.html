@@ -1,0 +1,42 @@
+<!-- Group talks by year and show a ul of talks for each year (Hugo-compatible descending order) -->
+{{ $talks := (index site.Data "talks") }}
+{{ $years := slice }}
+{{ range $talk := $talks }}
+{{ $year := (dateFormat "2006" (time $talk.date)) }}
+{{ $years = $years | append (int $year) }}
+{{ end }}
+{{ $years = $years | uniq }}
+{{ $years = sort $years "value" "desc" }}
+{{ $years = last (len $years) $years }}
+
+{{ range $year := $years }}
+<div class="talks">
+    <h2 class="talks__year">{{ $year }}</h2>
+    <ul>
+        {{ range $talk := $talks }}
+        {{ $talkYear := (dateFormat "2006" (time $talk.date)) }}
+        {{ if eq (int $talkYear) $year }}
+        <li class="talks__item">
+            {{ with $talk }}
+            <span class="talks__heading">
+                <span class="talks__title">{{ upper .title }}</span>
+                <div class="talks__date">{{ (dateFormat "Jan 2006" (time .date)) }}</div>
+            </span>
+            <ul class="talks__details">
+                <li><em>Event:</em> {{ .event }} in {{ .location }}</li>
+                <li><em>Speakers:</em> {{ delimit .speaker ", " ", and "}}</li>
+                <li><em>Language:</em> {{ cond (eq .language "de") "🇩🇪" "🇬🇧" }}</li>
+                <li><em>Slides:</em>&nbsp;{{ if .slides }}
+                    <a href="{{ .slides }}">Download</a>
+                    {{ else }}
+                    Not available
+                    {{ end }}
+                </li>
+            </ul>
+            {{ end }}
+        </li>
+        {{ end }}
+        {{ end }}
+    </ul>
+</div>
+{{ end }}

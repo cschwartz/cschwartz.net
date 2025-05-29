@@ -1,0 +1,55 @@
+baseURL: https://cschwartz.net/
+languageCode: en-us
+
+params:
+  title: "Practical Security Thinking for Complex Systems"
+  author: "Christian Schwartz"
+  description: >
+    Christian Schwartz, Head of InfoSec in Finance @ usd AG
+  readMore: true
+  relatedPosts: true
+  numberOfRelatedPosts: 3
+  rssFullContent: true
+  profilePicture: "images/cschwartz.png"
+  mainSections: ["posts"]
+  socialIcons:
+    - icon: "fa-brands fa-linkedin"
+      url: "https://www.linkedin.com/in/schwartzc/"
+      label: "Linkedin"
+    - icon: "fa-brands fa-github"
+      url: "https://github.com/cschwartz"
+      label: "GitHub"
+    - icon: "fa-brands fa-bluesky"
+      url: "https://bsky.app/profile/christianschwartz.bsky.social"
+      label: "Bluesky"
+    - label: "RSS"
+      icon: "fa-solid fa-rss"
+      url: "/feed.xml"
+  customCSS: 
+    - "css/partials/talks.css"
+
+menu:
+  main:
+    - name: "Posts"
+      weight: 200
+      identifier: "posts"
+      url: "/posts/"
+    - name: "Talks"
+      weight: 300
+      identifier: "talks"
+      url: "/talks/"
+  footer:
+    - name: "Legal Notice"
+      weight: 100
+      identifier: "legal-notice"
+      url: "/legal-notice/"
+
+module:
+  imports:
+    - path: "github.com/lxndrblz/anatole"
+      disable: false
+
+outputFormats:
+  RSS:
+    mediatype: "application/rss"
+    baseName: "feed"

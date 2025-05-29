@@ -1,0 +1,31 @@
+.talks {
+    margin: 30px;
+}
+
+.talks__item {
+  list-style-type: none;
+  margin-bottom: 1em;
+}
+
+.talks__title{
+    display: inline-block;
+    flex: .96;
+}
+
+.talks__heading {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  list-style-type: none;
+}
+
+.talks__date {
+    text-align: right;
+    color: #9f9f9f;
+}
+
+.talks__details {
+    list-style-type: none;
+    padding-left: 5px;
+    padding-bottom: 2px;
+}

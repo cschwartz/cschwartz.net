@@ -1,0 +1,117 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "posts",
+      "path": "[[workspace]]/content/posts"
+    }
+  ],
+  "frontMatter.data.files": [
+    {
+      "id": "talks",
+      "title": "talks",
+      "file": "[[workspace]]/data/talks.yaml",
+      "fileType": "yaml",
+      "labelField": "title",
+      "schema": {
+        "title": "Talks",
+        "type": "object",
+        "required": [
+          "title",
+          "event",
+          "date",
+          "location",
+          "language",
+          "speaker"
+        ],
+        "properties": {
+          "title": {
+            "type": "string",
+            "title": "Title"
+          },
+          "event": {
+            "type": "string",
+            "title": "Event"
+          },
+          "date": {
+            "type": "string",
+            "title": "Date",
+            "format": "date"
+          },
+          "location": {
+            "type": "string"
+          },
+          "language": {
+            "type": "string",
+            "title": "Language",
+            "enum": [
+              "de",
+              "en"
+            ]
+          },
+          "slides": {
+            "type": "string",
+            "title": "Slides Path",
+            "format": "uri"
+          },
+          "speaker": {
+            "type": "array",
+            "title": "Speaker",
+            "items": {
+              "type": "string"
+            }
+          },
+        }
+      }
+    }
+  ],
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.preview.host": "http://localhost:1313",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Content preview",
+          "name": "preview",
+          "type": "image"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        }
+      ]
+    }
+  ]
+}
