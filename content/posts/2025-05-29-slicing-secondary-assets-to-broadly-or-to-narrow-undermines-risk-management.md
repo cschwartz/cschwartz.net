@@ -10,6 +10,8 @@ tags:
     - threats
 categories: []
 slug: slicing-secondary-assets-broadly-narrow-undermines-risk-management
+series:
+    - secondary-assets
 ---
 Last week, we tackled what makes a good secondary asset definition - why slicing too broadly or narrowly undermines effective risk management. Now, the real work begins: how do you actually slice secondary assets so risk becomes manageable, not a free-for-all?
 <!--more-->

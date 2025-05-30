@@ -6,6 +6,8 @@ tags:
     - infosec
 description: In InfoSec, we talk a lot about "assets" - but if we don’t define secondary assets clearly, we end up trying to manage everything... and securing nothing well.
 draft: false
+series:
+    - secondary-assets
 ---
 In InfoSec, we talk a lot about "assets" - but if we don’t define **secondary assets** clearly, we end up trying to manage everything... and securing nothing well.
 <!--more-->
