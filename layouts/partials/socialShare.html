@@ -1,0 +1,21 @@
+<div class="socialShare">
+    <h3 class="socialShare__title">Share on</h3>
+    <ul>
+        <li> <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Permalink | urlquery }}"
+                aria-label="Share on LinkedIn"
+                onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+                title="Share on LinkedIn">
+                <i class="fa-brands fa-linkedin fa-2x" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://bsky.app/intent/compose?text={{ .Title | urlquery }}%20{{ .Permalink | urlquery }}"
+                aria-label="Share on Bluesky"
+                onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+                title="Share on Bluesky">
+                <i class="fa-brands fa-bluesky fa-2x" aria-hidden="true"></i>
+            </a>
+
+        </li>
+    </ul>
+</div>

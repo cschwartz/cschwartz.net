@@ -12,6 +12,7 @@ params:
   rssFullContent: true
   profilePicture: "images/cschwartz.png"
   mainSections: ["posts"]
+  socialShare: true
   socialIcons:
     - icon: "fa-brands fa-linkedin"
       url: "https://www.linkedin.com/in/schwartzc/"
