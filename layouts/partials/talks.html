@@ -19,8 +19,8 @@
         <li class="talks__item">
             {{ with $talk }}
             <span class="talks__heading">
-                <span class="talks__title">{{ upper .title }}</span>
-                <div class="talks__date">{{ (dateFormat "Jan 2006" (time .date)) }}</div>
+                <span class="talks__heading__title">{{ upper .title }}</span>
+                <div class="talks__heading__date">{{ (dateFormat "Jan 2006" (time .date)) }}</div>
             </span>
             <ul class="talks__details">
                 <li><em>Event:</em> {{ .event }} in {{ .location }}</li>

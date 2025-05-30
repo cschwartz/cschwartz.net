@@ -1,0 +1,38 @@
+.talks {
+  margin: 30px;
+
+  >ul {
+    padding-left: 0;
+  }
+
+  &__item {
+    list-style-type: none;
+    margin-bottom: 1em;
+  }
+
+  &__heading {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: .2em;
+    list-style-type: none;
+
+    &__title {
+      display: inline-block;
+      flex: .96;
+    }
+
+    &__date {
+      text-align: right;
+
+      @include themed() {
+        color: t('primary-light');
+      }
+    }
+  }
+
+  &__details {
+    list-style-type: none;
+    padding-left: .2em;
+    padding-bottom: .1em;
+  }
+}

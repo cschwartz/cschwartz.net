@@ -27,8 +27,6 @@ params:
       url: "/feed.xml"
   images:
     - "images/cschwartz.png"
-  customCSS: 
-    - "css/partials/talks.css"
 
 menu:
   main:
