@@ -25,6 +25,8 @@ params:
     - label: "RSS"
       icon: "fa-solid fa-rss"
       url: "/feed.xml"
+  images:
+    - "images/cschwartz.png"
   customCSS: 
     - "css/partials/talks.css"
 
