@@ -1,7 +1,7 @@
 ---
 title: "Scaling Governance: Beyond Secondary Assets"
 description: Discover how to enhance governance by focusing on platform-level controls, reducing overhead, and improving consistency in risk management.
-date: 2025-06-05T07:00:00.000Z
+date: 2025-06-04T07:00:00.000Z
 draft: false
 tags:
     - assets
