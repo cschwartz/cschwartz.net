@@ -1,7 +1,7 @@
 ---
 title: "Scaling Governance: Beyond Secondary Assets"
 description: Discover how to enhance governance by focusing on platform-level controls, reducing overhead, and improving consistency in risk management.
-date: 2025-06-04T07:00:00.000Z
+date: 2025-06-05T06:00:00.002Z
 draft: false
 tags:
     - assets
@@ -22,7 +22,7 @@ Rather than manage each asset in isolation, it’s often more effective to enfor
 Why does that matter?
 - A user-deployed app on a PaaS? IT operations, log ingestion, and system-level hardening are already managed at the platform level.
 - A citizen-developer app on a no-code platform? Enforce who can build, what data they access, and which integrations they use - all through the platform.
-- A machine learning notebook in a managed environment? Identity, compute isolation, and data access are manage by the workspace platform.
+- A machine learning notebook in a managed environment? Identity, compute isolation, and data access are managed by the workspace platform.
 
 Trying to assess and manage every individual outcome of a self-service or automation-driven system leads to overhead without clarity.
 A better approach: Manage patterns, not instances.
