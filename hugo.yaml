@@ -26,8 +26,8 @@ params:
     - label: "RSS"
       icon: "fa-solid fa-rss"
       url: "/feed.xml"
-  images:
-    - "images/cschwartz.png"
+#  images:
+#    - "images/cschwartz.png"
 
 menu:
   main:
