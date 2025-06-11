@@ -41,4 +41,4 @@ Which brings me to my two main points:
 - *Be wary when using a stat.* If you're justifying a security initiative and your stat includes phishing emails caught by a spam filter… expect (and deserve) pushback - unless you're pitching anti-spam solutions.
 - *Show your work when publishing a stat.* If your number isn't just marketing fluff and you want people to use it - give us the context. Let us engage with your data in good faith.
 
-(And next time, maybe I’ll rant about [why incidents that don’t cause damage are still important]({% post_url 2025-04-24-near-misses-are-worth-talking-about %}) - and how underdeveloped near-miss reporting is.)
+(And next time, maybe I’ll rant about [why incidents that don’t cause damage are still important]({{< relref 2025-04-24-near-misses-are-worth-talking-about >}}) - and how underdeveloped near-miss reporting is.)
