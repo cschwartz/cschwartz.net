@@ -72,7 +72,7 @@
     {
       "name": "default",
       "pageBundle": false,
-      "previewPath": null,
+      "previewPath": "/posts",
       "fields": [
         {
           "title": "Title",
