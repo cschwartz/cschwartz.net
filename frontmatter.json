@@ -110,6 +110,14 @@
           "title": "Categories",
           "name": "categories",
           "type": "categories"
+        },
+        {
+          "title": "Series",
+          "name": "series",
+          "type": "choice",
+          "choices": [
+            "secondary-assets"
+          ]
         }
       ]
     }
