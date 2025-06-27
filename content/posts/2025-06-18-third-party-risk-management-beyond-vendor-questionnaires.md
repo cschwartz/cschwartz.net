@@ -3,7 +3,7 @@ title: "Third Party Risk Management: Beyond Vendor Questionnaires"
 description: Transform third party risk management from compliance overhead to effective decision-making with practical strategies for real-world challenges.
 date: 2025-06-19T07:00:00.000Z
 preview: ""
-draft: true
+draft: false
 tags:
     - risk-managment
     - third-party-risk

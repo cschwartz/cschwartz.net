@@ -3,7 +3,7 @@ title: Streamlining Third Party Risk Governance in InfoSec
 description: Enhance your InfoSec strategy by streamlining third-party risk governance for better security and compliance.
 date: 2025-06-26T07:00:00.227Z
 preview: ""
-draft: true
+draft: false
 tags:
     - governance
     - risk-managment
